@@ -10,12 +10,6 @@ from datetime import timedelta, datetime
 
 class QuotesSpider(scrapy.Spider):
     name = "urlspider"
-    date_start = datetime(2018,1,1)
-    
-    
-  
-
-    
     configure_logging(install_root_handler=False)
     logging.basicConfig(
         filename='urlspiderlog.txt',
